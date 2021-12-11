@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cd dist && ../node_modules/.bin/tsc && node --inspect index.js",
+    "dev": "./node_modules/.bin/tsc && node --inspect dist/index.js",
     "go": "node --inspect dist/index.js",
     "brk": "node --inspect-brk dist/index.js"
   },
